@@ -17,13 +17,13 @@ Api criada para desenvolver habilidades com o banco de dados Nosql MongoDB ,e o 
 
 ```bash
 # POST - Create
-"https://api-astonpetshop.onrender.com/create"
+"https://localhost:3003/create"
 Faz a marcação de uma consulta
 ```
 
 ```bash
 # GET - GetAll
-"https://api-astonpetshop.onrender.com/getAll "
+"https://localhost:3003/getAll "
 Retorna todas as consultas que ainda não foram concluidas.
 
 Passar no parametro true se quiser ver as que ja foram concluidas
@@ -31,20 +31,20 @@ Passar no parametro true se quiser ver as que ja foram concluidas
 
 ```bash
 # GET - GetById
-"https://api-astonpetshop.onrender.com/getById/:id"
+"https://localhost:3003/getById/:id"
 Traz uma consulta de acordo com o id passado.
 ```
 
 ```bash
 
 # GET - Seeking
-"https://api-astonpetshop.onrender.com/seeking"
+"https://localhost:3003/seeking"
 Busca determinada consulta de acordo com o email ou o cpf que for passado na query
 ```
 ```bash
 
 # PUT - Finish
-"https://api-astonpetshop.onrender.com/finish/:id"
+"https://localhost:3003/finish/:id"
 Conclui a consulta que for passada o id
 ```
 
