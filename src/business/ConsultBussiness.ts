@@ -48,7 +48,7 @@ export class ConsultBusiness {
             const result = await this.consultDatabase.getAll(status )
            
             if(!result.length){
-                throw new Error("Nenhum cliente marcado")
+                throw new Error("No customers checked")
             }
 
             return result
@@ -62,8 +62,7 @@ export class ConsultBusiness {
             if(!id){
                 throw new Error("Need to inform the id for the query")
             }
-
-
+            
             const result = await this.consultDatabase.getById(id)
            return result
          

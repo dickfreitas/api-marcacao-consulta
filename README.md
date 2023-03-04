@@ -4,7 +4,7 @@
 
  ## Indice
  - <a href="#proposta">Proposta</a>
- - <a href="#endpoints-pets">Endpoints</a>
+ - <a href="#endpoints">Endpoints</a>
  - <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
  - <a href="#como-rodar-esse-projeto?">Como rodar esse projeto?</a>
  - <a href="#documentação">Documentação</a>
