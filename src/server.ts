@@ -13,6 +13,6 @@ const server = app.listen(process.env.PORT || 3003, () => {
 
 
 // AQUI CONECTA A APLICAÇÃO AO BANCO DE DADOS MONGODB
-const mongo = mongoose.connect('mongodb://localhost:27017/consult')
+const mongo = mongoose.connect(`${process.env.BANCO_DADOS}`)
 .then(() => console.log('Conectado ao MongoDB'))
 .catch((err) => console.log(err));
